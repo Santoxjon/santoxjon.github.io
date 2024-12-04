@@ -1,110 +1,163 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum - Jon Santos Barata</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #2F2F2F;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #FFFFFF;
-        }
-        .container {
-            background-color: #D1D7E0;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px 3px #FFFFFF;
-            max-width: 800px;
-            line-height: 1.6;
-            color: #2F2F2F;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #FFFFFF;
-        }
-        h1 {
-            margin-bottom: 10px;
-        }
-        .section-title {
-            color: #FFD700;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .contact {
-            text-align: center;
-        }
-        a {
-            color: #00BFFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1c1b26;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #7e7876;
+      }
+      .container {
+        background-color: #f2f2f3;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 3px #f2f2f3;
+        max-width: 800px;
+        line-height: 1.6;
+        color: #1c1b26;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        color: #7e7876;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      .section-title {
+        color: #7e7876;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .contact {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      .contact img {
+        border-radius: 50%;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 0 0 10px 3px #1c1b26;
+      }
+      .contact-info {
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .contact-info p {
+        margin: 0.35rem 0;
+      }
+      a {
+        color: #00bfff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Jon Santos Barata</h1>
-        <p class="contact">
-            <strong>Teléfono:</strong> 688 844 408<br>
-            <strong>Email:</strong> <a href="mailto:jonsantox@gmail.com">jonsantox@gmail.com</a><br>
-            <strong>Dirección:</strong> Vitoria-Gasteiz, Álava provincia 01010<br>
-            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jon-santos-barata/" target="_blank">Jon Santos Barata</a>
-        </p>
-        <h2>Sobre mí</h2>
-        <p>
-            Desde mis comienzos en el sector tecnológico, mi carrera profesional ha pasado desde técnico informático, a desarrollador de aplicaciones de escritorio y tester, hasta lo que ahora me encuentro más cómodo: el desarrollo de aplicaciones web. Me gusta sentirme preparado tanto en el backend como en el frontend, y no tengo problema en cambiar entre estos roles.
-        </p>
-        <h2 class="section-title">Datos personales</h2>
-        <ul>
-            <li><strong>Fecha de nacimiento:</strong> 1998-06-17</li>
-            <li><strong>Carnet de conducir:</strong> B</li>
-            <li><strong>Dispuesto a viajar:</strong> Depende de la oportunidad</li>
-            <li><strong>Educación más alta:</strong> FP Grado Superior</li>
-            <li><strong>Experiencia total:</strong> 4 años</li>
-        </ul>
-        <h2 class="section-title">Experiencia laboral</h2>
-        <ul>
-            <li><strong>Full Stack Developer</strong> en Cactus, Sevilla (Enero 2023 - Presente)</li>
-            <li><strong>Programador de segunda</strong> en Narobial, Santander (Abril 2022 - Octubre 2022)</li>
-            <li><strong>Full Stack Developer</strong> en Reappciona, Erandio (Abril 2021 - Abril 2022)</li>
-        </ul>
-        <h2 class="section-title">Educación</h2>
-        <ul>
-            <li>Bootcamp en BBK Bootcamp, Bilbao (Enero 2021 - Marzo 2021): Stack MERN</li>
-            <li>FP Grado Superior en Desarrollo de Aplicaciones Web, Egibide LH-FP, Vitoria-Gasteiz (2019 - 2020)</li>
-            <li>FP Grado Superior en Desarrollo de Aplicaciones Multiplataforma, IES Ciudad Jardín BHI, Vitoria-Gasteiz (2016 - 2018)</li>
-            <li>FP Grado Medio en Microinformática y Redes, IES Ciudad Jardín BHI, Vitoria-Gasteiz (2014 - 2016)</li>
-        </ul>
-        <h2 class="section-title">Habilidades</h2>
-        <ul>
-            <li>Node.js</li>
-            <li>Angular</li>
-            <li>Desarrollo de Back-End</li>
-            <li>SQL</li>
-            <li>APIs</li>
-            <li>Git</li>
-        </ul>
-        <h2 class="section-title">Idiomas</h2>
-        <ul>
-            <li>Euskera: Lengua materna</li>
-            <li>Español: Lengua materna</li>
-            <li>Inglés: Avanzado</li>
-        </ul>
-        <h2 class="section-title">Certificaciones</h2>
-        <ul>
-            <li>Certificación ITIL</li>
-        </ul>
+      <h1>JON SANTOS BARATA</h1>
+      <div class="contact">
+        <div class="contact-info">
+          <p><strong>Posición:</strong> Full-Stack Developer</p>
+          <p><strong>Estado:</strong> Trabajando actualmente</p>
+          <p><strong>Teléfono:</strong> +34 688 844 408</p>
+          <p><strong>Email:</strong> <a href="mailto:jonsantox@gmail.com">jonsantox@gmail.com</a></p>
+          <p><strong>Ubicación:</strong> Vitoria-Gasteiz, Euskadi, Araba, España</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jon-santos-barata/" target="_blank">Jon Santos Barata</a></p>
+        </div>
+        <img src="prof_pic.jpg" alt="Jon Santos Barata" />
+      </div>
+      <h2>Experiencia</h2>
+      <h3 class="section-title">Internships</h3>
+      <ul>
+        <li>
+          <strong>Java / C# Developer</strong> en Telepizza Poland Sp. z o.o., Varsovia, Polonia (Marzo 2018 – Junio 2018): Mantenimiento de aplicaciones de escritorio en C# y
+          Java.
+        </li>
+        <li><strong>Web Developer</strong> en Arteïa, Cracovia, Polonia (Marzo 2020 – Junio 2020): QA Testing de aplicaciones propietarias con el marco Cypress.</li>
+      </ul>
+      <h3 class="section-title">Experiencia Laboral</h3>
+      <ul>
+        <li><strong>Junior Full-Stack Developer</strong> en Reappciona, Erandio, España (Abril 2021 – Abril 2022): Desarrollo de aplicaciones web con Angular, React y NestJS.</li>
+        <li>
+          <strong>Full-Stack Developer</strong> en Narobial (Grupo Quiter), Santander, España (Abril 2022 – Octubre 2022): Desarrollo de producto propio con Angular, Node, MongoDB
+          y Express.
+        </li>
+        <li>
+          <strong>Full-Stack Developer</strong> en Cactus, Sevilla, España (Enero 2023 – Actualidad): Desarrollo backend con Node.js y Express. Arquitectura de microservicios con
+          Docker.
+        </li>
+      </ul>
+      <h2 class="section-title">Educación</h2>
+      <ul>
+        <li><strong>FP Grado Medio</strong> en Microinformática y Redes, CIFP Ciudad-Jardín LHII, Vitoria-Gasteiz (2014 – 2016)</li>
+        <li><strong>FP Grado Superior</strong> en Desarrollo de Aplicaciones Multiplataforma, CIFP Ciudad-Jardín LHII, Vitoria-Gasteiz (2016 – 2018)</li>
+        <li><strong>FP Grado Superior</strong> en Desarrollo de Aplicaciones Web, Fundación Diocesanas – Jesús Obrero Fundazioa, Vitoria-Gasteiz (2019 – 2020)</li>
+        <li><strong>Full-Stack Development Bootcamp</strong>, BBK & Code4Jobs, Bilbao (2021)</li>
+      </ul>
+      <h2 class="section-title">Conocimientos Técnicos</h2>
+      <h3>Lenguajes de Programación</h3>
+      <ul>
+        <li>JavaScript: 6 años</li>
+        <li>SQL: 6 años</li>
+      </ul>
+      <h3>Frameworks</h3>
+      <ul>
+        <li>Node.js: 5 años (Actualmente en uso)</li>
+        <li>Express: 4 años (Actualmente en uso)</li>
+        <li>NestJS: 1 año (No en uso)</li>
+        <li>Angular: 3 años (Actualmente en uso)</li>
+        <li>React: 1 año (No en uso)</li>
+      </ul>
+      <h3>Testing</h3>
+      <ul>
+        <li>Jest: 2 años (No en uso)</li>
+        <li>Mocha: 2 años (No en uso)</li>
+        <li>Chai: 2 años (No en uso)</li>
+        <li>Cypress: 2 años (No en uso)</li>
+      </ul>
+      <h3>Bases de Datos</h3>
+      <ul>
+        <li>MySQL: 6 años (No en uso)</li>
+        <li>PostgreSQL: 2 años (Actualmente en uso)</li>
+        <li>MongoDB: 2 años (No en uso)</li>
+      </ul>
+      <h3>Herramientas</h3>
+      <ul>
+        <li>Git: 6 años (Actualmente en uso)</li>
+        <li>Docker: 2 años (Actualmente en uso)</li>
+      </ul>
+      <h2 class="section-title">Certificaciones</h2>
+      <ul>
+        <li>ITIL V3 – Axelos (Febrero 2019)</li>
+      </ul>
+      <h2 class="section-title">Idiomas</h2>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Vasco: Nativo</li>
+        <li>Inglés: C1</li>
+      </ul>
+      <h2 class="section-title">Licencias y Movilidad</h2>
+      <ul>
+        <li>Carnet de conducir: Tipo B</li>
+        <li>Vehículo disponible: Sí</li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>
